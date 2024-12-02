@@ -1,0 +1,9 @@
+<!-- Upload Form -->
+        <div class="upload-form">
+            <h3>Upload Mathematics PDF</h3>
+            <form action="upload_script.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="pdfFile" accept=".pdf" required>
+                <button type="submit">Upload PDF</button>
+            </form>
+        </div>
+    </div>
